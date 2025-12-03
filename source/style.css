@@ -4,6 +4,10 @@ html { -webkit-text-size-adjust: 100%; text-size-adjust: 100% }
 
 /* Global variables */
 :root {
+--weaveandnourish-h1: #3D4034;
+--weaveandbnourish-h2: #735439;
+
+
   --light-blue: #8d9ab2;
   --light-brown: #a08c7d;
   --dark-blue: hsl(230, 36%, 44%);
@@ -32,6 +36,7 @@ html { -webkit-text-size-adjust: 100%; text-size-adjust: 100% }
   --rem: min(calc(0.8vw + 12px), 20px);
   --margin: min(2vw, 2rem);
 }
+
 
 /* Fonts */
 @font-face { font-family: dance;    font-weight: 400 700; src: url("/fonts/dance/dance.woff2") format("woff2-variations") }
@@ -90,7 +95,7 @@ h1.info {
 }
 
 h2 {
-  color: var(--light-blue);
+  color: var(--weaveandbnourish-h2);
 }
 
 h3 {

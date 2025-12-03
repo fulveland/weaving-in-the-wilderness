@@ -28,7 +28,7 @@ header .banner {
   height: 100%;
   background: linear-gradient(170deg, hsla(30, 20%, 90%, 1), hsla(30, 20%, 50%, 0) 70%);
   font-size: min(2.8vw, 36px);
-  --color: #3D4034;
+  color: var(--weaveandnourish-h1);
 }
 
 header .banner h1 {
@@ -36,7 +36,7 @@ header .banner h1 {
   text-align: left;
   font-size: 3.5em;
   font-family: vollkorn;
-  color: var(--color);
+  color: var(--weaveandnourish-h1);
 }
 
 /* header .subtitle {
@@ -56,16 +56,16 @@ header .banner .subtitle {
   margin: 1em 0 0.2em 1em;
   font-size: max(18px, 1.2em);
   font-weight: 650;
-    font-family: vollkorn;
-    color: var(--color);
+  font-family: vollkorn;
+  color: var(--weaveandnourish-h1);
 }
 
 header .banner .info {
   margin: 0 0 0 1em;
   font-size: max(18px, 1.2em);
-    font-weight: 650;
-    font-family: vollkorn;
-    color: var(--color);
+  font-weight: 650;
+  font-family: vollkorn;
+  color: var(--weaveandnourish-h1);
 }
 
 
